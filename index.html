@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Planet Weight Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div id="toggle">
+      <i class="indicator"></i>
+    </div>
+    <h1 class="mode">Planet Weight Calculator</h1>
+
+    <input class="input" id="weight" type="number" /><br>
+
+    <div class="buttons">
+      <!-- <button class="btn" onclick="earth()">Earth</button> -->
+      <button class="btn" onclick="sun()">Sun</button>
+      <button class="btn" onclick="moon()">Moon</button>
+      <button class="btn" onclick="mercury()">Mercury</button>
+      <button class="btn" onclick="venus()">Venus</button>
+      <button class="btn" onclick="mars()">Mars</button>
+      <button class="btn" onclick="jupiter()">Jupiter</button>
+      <button class="btn" onclick="saturn()">Saturn</button>
+      <button class="btn" onclick="uranus()">Uranus</button>
+      <button class="btn" onclick="neptune()">Neptune</button>
+      <button class="btn" onclick="pluto()">Pluto</button>
+    </div>
+
+    <text class="mode" id="result-title">Result</text>
+
+    <div id="box">
+      <text class="mode" id="ans"></text>
+    </div>
+    <text class="mode" id="src-title">Sources I Used</text>
+    <a class="mode" class="link" href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate1">CSS Button
+      Animations</a>
+    <a class="mode" class="link" href="https://bobbyhadz.com/blog/javascript-round-number-to-two-decimal-places">Round Decimals</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
